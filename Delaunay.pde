@@ -955,22 +955,18 @@ void keyPressed()
   }
   else if (control && key == 'r')
   {
-    //JOptionPane jop = new JOptionPane();			
-    //int option = jop.showConfirmDialog(null, "Remove the drawing?", "Reset", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.QUESTION_MESSAGE);
-    /*if(false)
-    {
-      // Erase all
-      pointArray.clear();
-      triangleArray.clear();
-      quadArray.clear();
-      voronoi = false;
-      
-       // Setup
-       setup();
-       
-       // Redraw
-       redraw();
-    }*/
+    // Erase all
+    pointArray.clear();
+    triangleArray.clear();
+    quadArray.clear();
+    voronoi = false;
+    
+     // Setup
+     setup();
+     
+     // Redraw
+     redraw();
+
     control = false;
   }
   else if (control && key == 's')
